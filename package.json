@@ -1,0 +1,11 @@
+{
+  "name": "coupon-collector",
+  "version": "0.1.0",
+  "description": "A provider-based coupon collection framework for AI agents",
+  "license": "Apache-2.0",
+  "private": false,
+  "type": "commonjs",
+  "bin": { "coupon-collector": "src/cli.js" },
+  "scripts": { "test": "node --test --test-isolation=none", "start": "node src/cli.js" },
+  "engines": { "node": ">=18" }
+}
