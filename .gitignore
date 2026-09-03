@@ -1,0 +1,16 @@
+node_modules/
+*.tgz
+*.tar.gz
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+credentials/
+token.json
+pt_passport_auth.json
+.downloaded_at
+
