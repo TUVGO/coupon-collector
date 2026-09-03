@@ -6,6 +6,6 @@
   "private": false,
   "type": "commonjs",
   "bin": { "coupon-collector": "src/cli.js" },
-  "scripts": { "test": "node --test --test-isolation=none", "start": "node src/cli.js" },
+  "scripts": { "test": "node test/cli.test.js", "start": "node src/cli.js" },
   "engines": { "node": ">=18" }
 }
