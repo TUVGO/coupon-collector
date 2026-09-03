@@ -1,0 +1,58 @@
+{
+  "name": "coupon-collector",
+  "version": "1.0.2",
+  "description": "Coupon collection assistant — one-click coupon collection and daily deal discovery.",
+  "author": {
+    "name": "Pending rights-holder confirmation"
+  },
+  "expertType": "agent",
+  "agentName": "coupon-collector",
+  "agents": [
+    "./agents/coupon-collector.md"
+  ],
+  "displayName": {
+    "en": "Coupon Collector",
+    "zh": "优惠券领取"
+  },
+  "profession": {
+    "en": "Coupon Collection Assistant",
+    "zh": "优惠券领取助手"
+  },
+  "displayDescription": {
+    "en": "Helps you collect coupons with one tap and explore daily deals.",
+    "zh": "帮您一键领取优惠券、探索今日优惠活动，省钱省心。"
+  },
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "帮我领取优惠券",
+    "en": "Help me collect coupons"
+  },
+  "tags": [
+    {
+      "en": "Coupons",
+      "zh": "优惠券"
+    },
+    {
+      "en": "Group Buying",
+      "zh": "团购下单"
+    },
+    {
+      "en": "Lifestyle Services",
+      "zh": "生活服务"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Help me collect coupons",
+      "zh": "帮我领取优惠券"
+    },
+    {
+      "en": "What's good to eat nearby?",
+      "zh": "附近有什么好吃的？"
+    },
+    {
+      "en": "What deals are available today?",
+      "zh": "今天有什么优惠活动？"
+    }
+  ]
+}
